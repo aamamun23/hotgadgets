@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+* {
+  font-family: 'Poppins', sans-serif; }
+
+.carousel-indicators li {
+  background-image: linear-gradient(90deg, #666, #666);
+  width: 15px;
+  height: 8px;
+  border-radius: 5px;
+  border-top: 0;
+  border-bottom: 0; }
+  .carousel-indicators li.active {
+    width: 30px;
+    background-image: -webkit-linear-gradient(left, #f39c12, #f1c40f);
+    background-image: -o-linear-gradient(left, #f39c12, #f1c40f);
+    background-image: linear-gradient(to right, #f39c12, #f1c40f); }
+
+.spacing {
+  margin: 100px auto; }
+
+.card {
+  box-shadow: 0 0 15px #ecf0f1;
+  border-radius: 10px; }
+  .card .card-footer {
+    border: 0;
+    background-color: transparent; }
+
+.bar {
+  display: inline-block;
+  width: 150px;
+  height: 8px;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(right, #f39c12, #f1c40f);
+  background-image: -o-linear-gradient(right, #f39c12, #f1c40f);
+  background-image: linear-gradient(right, #f39c12, #f1c40f); }
+
+.subscribe {
+  box-shadow: 0 0 15px #ecf0f1;
+  border-radius: 10px;
+  margin-bottom: 20px; }
